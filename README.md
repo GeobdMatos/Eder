@@ -69,7 +69,7 @@ Pré-requisitos
 
 Certifique-se de ter instalado em sua máquina:
 
-Node.js (versão LTS recomendada)
+Node.js 
 
 npm ou yarn
 
@@ -78,37 +78,37 @@ Expo Go (para testar no celular)
 Android Studio ou Xcode (opcional, para emulador)
 
 1. Clonar o repositório
-`sh
+`
 git clone https://github.com/GeobdMatos/Eder.git
 `
 Acesse a pasta do projeto:
-`sh
+`
 cd Eder
 `
 2. Instalar as dependências
 
 Utilizando npm:
-`sh
+`
 npm install
 `
 Ou utilizando yarn:
-`sh
+`
 yarn install
 `
 Esse comando instalará todas as dependências listadas no arquivo package.json, incluindo as bibliotecas do Expo, React Native e demais integrações utilizadas no projeto.
 
-`sh
+`
 npm expo install
 `
 
 3. Executar o projeto
 
 Para iniciar o servidor de desenvolvimento:
-`sh
+`
 npx expo start
 `
 ou
-`sh
+`
 npm start
 `
 4. Executar no dispositivo
